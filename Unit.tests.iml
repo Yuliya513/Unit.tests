@@ -1,0 +1,11 @@
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class TestAdder {
+
+    @Test
+    public void testSumPositiveNumbersOneAndOne() {
+        Adder adder = new AdderImpl();
+        assertEquals(2, adder.add(1, 1));
+    }
